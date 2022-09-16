@@ -1,0 +1,89 @@
+"code","perrin_value","perrin-supplement_value","serjeant_value"
+"C1","Measurements in solutions of salt and acid","Measurements in solutions of salt and acid","Measurements in solutions of salt and acid"
+"C2","Measurements in solution of base only","Measurements in solution of base only","Measurements in solution of base only"
+"C3",,,"Calculated from the decrease in conductivity in the reaction ROH + OH- --> RO- + H2O (Ballinger and Long, J. Am. Chem. Soc. 81, 1050 (1959))"
+"E1a","Method of Harned and Ehlers (J. Am. Chem. Soc. 54, 1350 (1932))","Method of Harned and Ehlers (J. Am. Chem. Soc. 54, 1350 (1932))","Method of Harned and Ehlers (J. Am. Chem. Soc. 54, 1350 (1932))"
+"E1b","Method of Harned and Owen (J. Am. Chem. Soc. 52, 5079 (1930))","Method of Harned and Owen (J. Am. Chem. Soc. 52, 5079 (1930))","Method of Harned and Owen (J. Am. Chem. Soc. 52, 5079 (1930))"
+"E1cg","Determination of [H+] from cells of the type Glass|solution, Cl-|AgCl|Ag","Determination of [H+] from cells of the type Glass|solution, Cl-|AgCl|Ag","Determination of [H+] from cells of the type Glass|solution, Cl-|AgCl|Ag"
+"E1ch","Determination of [H*] from the cell, Pt(H2)|solution, Cl-|AgCl|Ag","Determination of [H*] from the cell, Pt(H2)|solution, Cl-|AgCl|Ag","Determination of [H*] from the cell, Pt(H2)|solution, Cl-|AgCl|Ag"
+"E1d","Method of Bates (J. Am. Chem. Soc. 70, 1579 (1948)) from cells of the type Glass|solution, Determination of K1 and K2 for dibasic acids","Method of Bates (J. Am. Chem. Soc. 70, 1579 (1948)) from cells of the type Glass|solution, Determination of K1 and K2 for dibasic acids","Method of Bates (J. Am. Chem. Soc. 70, 1579 (1948)) for the determination of K1 and K2 of dibasic acids"
+"E1e","Method of Bates and Pinching (J. Res. Natl. Bur. Std. 43, 519 (1949))
+A particular case of method E1cg in which the solution is a buffer comprising a weak base and a weak acid","Method of Bates and Pinching (J. Res. Natl. Bur. Std. 43, 519 (1949))
+A particular case of method E1cg in which the solution is a buffer comprising a weak base and a weak acid","Method of Bates and Pinching (J. Res. Natl. Bur. Std. 43, 519 (1949))
+A particular case of method E1cg in which the solution is a buffer made from a weak acid and a weak base"
+"E2a","Method of Owen (J. Am. Chem. Soc. 60, 2229 (1938))","Method of Owen (J. Am. Chem. Soc. 60, 2229 (1938))","Method of Owen (J. Am. Chem. Soc. 60, 2229 (1938))"
+"E2b","Method of Larsson and Adell (Z. Physik. Chem. 156, 352, 381 (1931))","Method of Larsson and Adell (Z. Physik. Chem. 156, 352, 381 (1931))","Method of Larsson and Adell (Z. Physik. Chem. 156, 352, 381 (1931))"
+"E2c","Method of Everett and Landsman (Proc. Roy. Soc. London, A215, 403 (1952))","Method of Everett and Landsman (Proc. Roy. Soc. London, A215, 403 (1952))","Method of Everett and Landsman (Proc. Roy. Soc. London, A215, 403 (1952))"
+"E3ag","pH measurements in buffer solutions of weak electrolytes using
+glass electrodes","pH measurements in buffer solutions of weak electrolytes using
+glass electrodes","pH measurements in buffer solutions of weak electrolytes using
+glass electrodes"
+"E3ah","Similar measurements using hydrogen electrodes","Similar measurements using hydrogen electrodes","Similar measurements using hydrogen electrodes"
+"E3bg","Measurements of pH changes during titrations using glass electrodes","Measurements of pH changes during titrations using glass electrodes","Measurements of pH changes during titrations using glass electrodes"
+"E3bh","Similar measurements using hydrogen electrodes","Similar measurements using hydrogen electrodes","Similar measurements using hydrogen electrodes"
+"E3bq",,,"Similar measurements using quinhydrone electrodes"
+"E3c","Differential potentiometric methods","Differential potentiometric methods","Differential potentiometric methods"
+"E3d","pH measurements at equal concentrations of salt and base","pH measurements at equal concentrations of salt and base","pH measurements at equal concentrations of salt and base"
+"O1","Direct determination of the degree of dissociation by extinction coefficient measurements in solutions of weak bases and salts","Direct determination of the degree of dissociation by extinction coefficient measurements in solutions of weak bases and salts","Direct determination of the degree of dissociation by extinction coefficient measurements in solutions of weak bases and salts"
+"O2","Colorimetric determination with an indicator of known pK","Colorimetric determination with an indicator of known pK","Colorimetric determination with an indicator of known pK"
+"O3","Colorimetric determination with an indicator calibrated with a buffer solution of known pH","Colorimetric determination with an indicator calibrated with a buffer solution of known pH","Colorimetric determination with an indicator calibrated with a buffer solution of known pH"
+"O4","Method of von Halban and Brull (Helv. Chim. Acta 27, 1719 (1944)) (Solutions of the base being studied, plus indicator, are compared with similar solutions containing alkali and indicator)","Method of von Halban and Brull (Helv. Chim. Acta 27, 1719 (1944)) (Solutions of the base being studied, plus indicator, are compared with similar solutions containing alkali and indicator)","Method of von Halban and Brull (Helv. Chim. Acta 27, 1719 (1944)) (Solutions of the base being studied, plus indicator, are compared with similar solutions containing alkali and indicator)"
+"O5","Light absorption measurements combined with electrometric measurements","Light absorption measurements combined with electrometric measurements","Light absorption measurements combined with electrometric measurements"
+"O5a",,,"Similar to O5 but using p(a_H gamma_Cl) buffers"
+"O6","Light absorption measurements using solutions of mineral acids of known concentrations and (usually) Hammett’s acidity function, H0","Light absorption measurements using solutions of mineral acids of known concentrations and (usually) Hammett’s acidity function, H0","Light absorption measurements using solutions of mineral acids of known concentrations and (usually) Hammett’s acidity function, H0"
+"O7","Similar to O6 but using solutions of alkalis","Similar to O6 but using solutions of alkalis","Similar to O6 but using solutions of alkalis"
+"CAT","Constants estimated from catalytic measurements","Constants estimated from catalytic measurements",
+"KIN","Constants estimated from kinetic measurements","Constants estimated from kinetic measurements",
+"CAL",,,"Calorimetry"
+"DIS",,,"Phase distribution studies"
+"FLU",,,"Fluorescent titrations"
+"FLU/O5",,,"Fluorescence maxima measurements coupled with O5 studies in the ground state"
+"KIN",,,"Kinetic measurements"
+"NMR",,,"Nuclear magnetic resonance measurements"
+"RAM",,,"Raman spectral measurements"
+"REF",,,"Differential refractometry"
+"ROT",,,"Optical rotation measurements"
+"SOL",,,"Solubility measurements"
+"R1a","Method of Davies (The Conductivity of Solutions, Chapman and Hall
+London, 1930) (By successive approximations, f, is calculated from the Debye-
+Hiickel-Onsager equation)","Method of Davies (The Conductivity of Solutions, Chapman and Hall
+London, 1930) (By successive approximations, f, is calculated from the Debye-
+Hiickel-Onsager equation)","Method of Davies (The Conductivity of Solutions, Chapman and Hall
+London, 1930) (By successive approximations, f, is calculated from the Debye-
+Hiickel-Onsager equation)"
+"R1b","Method of MacInnes (J. Am. Chem. Soc. 48, 2068 (1926))","Method of MacInnes (J. Am. Chem. Soc. 48, 2068 (1926))","Method of MacInnes (J. Am. Chem. Soc. 48, 2068 (1926))"
+"R1c","Method of Fuoss and Krauss (J. Am. Chem. Soc. 55, 476 (1933))","Method of Fuoss and Krauss (J. Am. Chem. Soc. 55, 476 (1933))","Method of Fuoss and Krauss (J. Am. Chem. Soc. 55, 476 (1933))"
+"R1d","Method of Shedlovsky (J. Franklin Inst. 225, 739 (1938))
+(This is like R1c but a different equation is used)","Method of Shedlovsky (J. Franklin Inst. 225, 739 (1938))
+(This is like R1c but a different equation is used)","Method of Shedlovsky (J. Franklin Inst. 225, 739 (1938))
+(This is like R1c but a different equation is used)"
+"R1e",,,"Method of Fuoss and Shedlovsky (J. Am. Chem. Soc. 71, 1496 (1949))"
+"R2a","Method of Kilpi (Z. Physik. Chem. 173, 223, 427 (1935), 175, 239 (1936))","Method of Kilpi (Z. Physik. Chem. 173, 223, 427 (1935), 175, 239 (1936)) (at point of inflexion)","Method of Kilpi (Z. Physik. Chem. 173, 223, 427 (1935), 175, 239 (1936))"
+"R2b","Method of Hahn and Klockmann (Z. Physik. Chem. 146, 373 (1930))","Method of Hahn and Klockmann (Z. Physik. Chem. 146, 373 (1930))","Method of Hahn and Klockmann (Z. Physik. Chem. 146, 373 (1930))"
+"R2c","Method of Grunwald (J. Am. Chem. Soc. 73, 4934 (1951)) (at equivalence point)","Method of Grunwald (J. Am. Chem. Soc. 73, 4934 (1951)) (at equivalence point)","Method of Grunwald (J. Am. Chem. Soc. 73, 4934 (1951)) (at equivalence point)"
+"R3a","Method of Kolthoff and Bosch (Rec. Trav. Chim. 47, 861 (1928))","Method of Kolthoff and Bosch (Rec. Trav. Chim. 47, 861 (1928))","Method of Kolthoff and Bosch (Rec. Trav. Chim. 47, 861 (1928))"
+"R3b","Method of Auerbach and Smolezyk (Z. Physik. Chem. A110, 83 (1924))","Method of Auerbach and Smolezyk (Z. Physik. Chem. A110, 83 (1924))","Method of Auerbach and Smolezyk (Z. Physik. Chem. A110, 83 (1924))"
+"R3c","Method of Britton (J. Chem. Soc. 127, 1896 (1925))","Method of Britton (J. Chem. Soc. 127, 1896 (1925))","Method of Britton (J. Chem. Soc. 127, 1896 (1925))"
+"R3d","Method of Speakman (J. Chem. Soc. 1940, 855)","Method of Speakman (J. Chem. Soc. 1940, 855)","Method of Speakman (J. Chem. Soc. 1940, 855)"
+"R3f","Method of Bjerrum and Anderson (Kgl. Danske Videnskab. Selskab.
+Mat.-Fys. Medd 22, No. 7 (1945))","Method of Bjerrum and Anderson (Kgl. Danske Videnskab. Selskab.
+Mat.-Fys. Medd 22, No. 7 (1945))","Method of Bjerrum and Anderson (Kgl. Danske Videnskab. Selskab.
+Mat.-Fys. Medd 22, No. 7 (1945))"
+"R3g","Method of Schwarzenbach (Helv. Chim. Acta 33, 947 (1950))","Method of Schwarzenbach (Helv. Chim. Acta 33, 947 (1950))","Method of Schwarzenbach (Helv. Chim. Acta 33, 947 (1950))"
+"R3h","Method of Rossotti, Rossotti and Sillén (Acta Chem. Scand. 10, 203 (1956)) (by curve-fitting)","Method of Rossotti, Rossotti and Sillén (Acta Chem. Scand. 10, 203 (1956)) (by curve-fitting)","Method of Rossotti, Rossotti and Sillén (Acta Chem. Scand. 10, 203 (1956)) (by curve-fitting)"
+"R4","Graphical extrapolation to I = 0","Graphical extrapolation to I = 0","Graphical extrapolation to I = 0"
+"D1","Salt bridge, no attempt at elimination","Salt bridge, no attempt at elimination","Salt bridge, no attempt at elimination"
+"D2","Method of Bjerrum (Z. Physik. Chem. 53, 428 (1905); Z. Elektrochem. 17, 389 (1911)) (The strength of the potassium chloride solution in the salt bridge is varied and eliminated by extrapolation)","Method of Bjerrum (Z. Physik. Chem. 53, 428 (1905); Z. Elektrochem. 17, 389 (1911)) (The strength of the potassium chloride solution in the salt bridge is varied and eliminated by extrapolation)","Method of Bjerrum (Z. Physik. Chem. 53, 428 (1905); Z. Elektrochem. 17, 389 (1911)) (The strength of the potassium chloride solution in the salt bridge is varied and eliminated by extrapolation)"
+"D3","The diffusion potentials are calculated","The diffusion potentials are calculated","The diffusion potentials are calculated"
+"K1a","Method of MacInnes and Shedlovsky (J. Am. Chem. Soc. 54, 1429 (1932)) (Addition of slight excess of free base)","Method of MacInnes and Shedlovsky (J. Am. Chem. Soc. 54, 1429 (1932)) (Addition of slight excess of free base)","Method of MacInnes and Shedlovsky (J. Am. Chem. Soc. 54, 1429 (1932)) (Addition of slight excess of free base)"
+"K1b","Method of Jeffery and Vogel (J. Chem. Soc. 1932, 2829) (Corrections are calculated using KH2O and an approximate Kc)","Method of Jeffery and Vogel (J. Chem. Soc. 1932, 2829) (Corrections are calculated using KH2O and an approximate Kc)","Method of Jeffery and Vogel (J. Chem. Soc. 1932, 2829)
+(Corrections are calculated using KH2O and an approximate Kc)"
+"K1c","Method of Jeffery and Vogel (Phil. Mag. 18, 901 (1934)) (Corrects for hydrolysis and for solvent)","Method of Jeffery and Vogel (Phil. Mag. 18, 901 (1934)) (Corrects for hydrolysis and for solvent)","Method of Jeffery and Vogel (Phil. Mag. 18, 901 (1934)) (Corrects for hydrolysis and for solvent)"
+"K1d","Method of Ives (J. Chem. Soc. 1933, 313) (Corrects for hydrolysis and for solvent)","Method of Ives (J. Chem. Soc. 1933, 313) (Corrects for hydrolysis and for solvent)","Method of Ives (J. Chem. Soc. 1933, 313) (Corrects for hydrolysis and for solvent)"
+"K1e","Method of Davies (Trans. Faraday Soc. 28, 607 (1932)) (Corrects for hydrolysis and for solvent)","Method of Davies (Trans. Faraday Soc. 28, 607 (1932)) (Corrects for hydrolysis and for solvent)","Method of Davies (Trans. Faraday Soc. 28, 607 (1932)) (Corrects for hydrolysis and for solvent)"
+"K1f","Method of Banks and Davies (J. Chem. Soc. 1938, 73) (Average of results obtained using method K1e from which kH20 has been completely eliminated)  ","Method of Banks and Davies (J. Chem. Soc. 1938, 73) (Average of results obtained using method K1e from which kH20 has been completely eliminated)  ","Method of Banks and Davies (J. Chem. Soc. 1938, 73) (Average of results obtained using method K1e from which kH20 has been completely eliminated)  "
+"K2a","“Normal correction’’, where kH2O is not eliminated for bases, but is completely eliminated for salts","“Normal correction’’, where kH2O is not eliminated for bases, but is completely eliminated for salts","“Normal correction’’, where kH2O is not eliminated for bases, but is completely eliminated for salts"
+"K2b","Complete elimination of kH2O for both base and salt solutions","Complete elimination of kH2O for both base and salt solutions","Complete elimination of kH2O for both base and salt solutions"
+"K2c","Method of MacInnes and Shedlovsky (J. Am. Chem. Soc. 54, 1429 (1932))","Method of MacInnes and Shedlovsky (J. Am. Chem. Soc. 54, 1429 (1932))","Method of MacInnes and Shedlovsky (J. Am. Chem. Soc. 54, 1429 (1932))"
+"K2d","Method of Jeffery and Vogel (J. Chem. Soc. 1933, 1637)","Method of Jeffery and Vogel (J. Chem. Soc. 1933, 1637)","Method of Jeffery and Vogel (J. Chem. Soc. 1933, 1637)"
+"K2e","Method of Dippy and Williams (J. Chem. Soc. 1934, 161, 1888)","Method of Dippy and Williams (J. Chem. Soc. 1934, 161, 1888)","Method of Dippy and Williams (J. Chem. Soc. 1934, 161, 1888)"
