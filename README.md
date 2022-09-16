@@ -90,7 +90,7 @@ Before publication, several programmed checks were performed on the dataset.
 * `remarks`: Comments for this specific datapoint.
 * `method`: Code for the method used to determine this datapoint.
 * `assessment`: IUPAC critical evaluation of the data uncertainty.
-* `ref`: Code for the reference to the original source of this datapoint.
+* `ref`: Code for the reference to the original source of this datapoint. Note: While we work on validating the digitized reference codes, scanned images of the reference codes are available in the `refs` folder. 
 * `ref_remarks`: Remarks pertaining specifically to the reference for this entry; e.g. "Thermodynamic quantities are derived from the results".
 * `entry_remarks`: Remarks pertaining to all entries for this chemical species, usually pointers to other data sources (e.g. Other values in B10).
 * `original_IUPAC_names`: IUPAC identifier for the chemical species originally presented in the reference work (with a few exceptions, see the report for details).
