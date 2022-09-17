@@ -27,13 +27,12 @@ jonzheng@mit.edu
 ## License
 Copyright &copy; 2022 International Union of Pure and Applied Chemistry.
 
-This material is available for reuse under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license with the following attribution:
-Reproduced by permission of International Union of Pure and Applied Chemistry.
+This material is available for reuse under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license with the following attribution: Reproduced by permission of International Union of Pure and Applied Chemistry.
 
 ## Recommended Citation
 Zheng, Jonathan W. (2022) IUPAC Digitized pKa Dataset. Copyright &copy; 2022 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://github.com/IUPAC/Dissociation-Constants.
 
-*This Github repository serves as a working copy for the dataset. Once a Zenodo repository entry is created, the link will be attached to this repo and the citation.*
+*This Github repository serves as a working copy for the dataset. Once a Zenodo repository entry is created, the link will be attached to this repository and this citation.*
 
 
 ## Data & File Overview
@@ -125,7 +124,7 @@ In the case of data uncertainty, the evaluation originally posited by the author
 
 ## Acknowledgement
 People involved with sample collection, processing, analysis and/or submission: 
-- Green Group, MIT
+- Green Group, Department of Chemical Engineering, MIT
 - Ye Li, MIT Libraries
 - IUPAC volunteers: Leah McEwen, Stuart Chalk
 - PubChem volunteers: Evan Bolton, Jeff Zhang
