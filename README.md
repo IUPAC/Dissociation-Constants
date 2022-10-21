@@ -1,5 +1,7 @@
 # IUPAC Digitized pKa Dataset 
 
+[![DOI](https://zenodo.org/badge/536654885.svg)](https://zenodo.org/badge/latestdoi/536654885)
+
 **Important note: This is the first release of this dataset. The detailed process of digitization and curation of this dataset can be found in the *IUPAC pKa Data Digitization Report* attached in this repository. Our validation process is ongoing and will continue. Please be advised that a few errors and inconsistencies may still exist.** 
 
 ### Dataset version: v1.0 
@@ -32,7 +34,7 @@ This material is available for reuse under a [CC BY-NC 4.0](https://creativecomm
 ## Recommended Citation
 Zheng, Jonathan W. (2022) IUPAC Digitized pKa Dataset. Copyright &copy; 2022 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://github.com/IUPAC/Dissociation-Constants.
 
-*This Github repository serves as a working copy for the dataset. Once a Zenodo repository entry is created, the link will be attached to this repository and this citation.*
+This Github repository serves as a working copy for the dataset. Please refer to the Zenodo DOI badge linked at the top of this README.
 
 
 ## Data & File Overview
