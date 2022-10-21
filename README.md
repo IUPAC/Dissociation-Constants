@@ -32,7 +32,7 @@ Copyright &copy; 2022 International Union of Pure and Applied Chemistry.
 This material is available for reuse under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license with the following attribution: Reproduced by permission of International Union of Pure and Applied Chemistry.
 
 ## Recommended Citation
-Zheng, Jonathan W. (2022) IUPAC Digitized pKa Dataset. Copyright &copy; 2022 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://github.com/IUPAC/Dissociation-Constants.
+Zheng, Jonathan W. (2022) IUPAC Digitized pKa Dataset, v1.0. Copyright &copy; 2022 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://doi.org/10.5281/zenodo.7236453. 
 
 This Github repository serves as a working copy for the dataset. Please refer to the Zenodo DOI badge linked at the top of this README.
 
