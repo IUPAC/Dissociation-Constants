@@ -34,7 +34,7 @@ This material is available for reuse under a [CC BY-NC 4.0](https://creativecomm
 ## Recommended Citation
 Zheng, Jonathan W. (2022) IUPAC Digitized pKa Dataset, v1.0. Copyright &copy; 2022 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://doi.org/10.5281/zenodo.7236453. 
 
-This Github repository serves as a working copy for the dataset. Please refer to the Zenodo DOI badge linked at the top of this README.
+This GitHub repository serves as a working copy for the dataset. Please refer to the Zenodo DOI badge linked at the top of this README.
 
 
 ## Data & File Overview
@@ -131,3 +131,79 @@ People involved with sample collection, processing, analysis and/or submission:
 - IUPAC volunteers: Leah McEwen, Stuart Chalk
 - PubChem volunteers: Evan Bolton, Jeff Zhang
 
+[//]: # (This addition is derived from https://github.com/deepmind/mathematics_dataset/blob/master/README.md)
+[//]: # (https://chrisgorgo.medium.com/making-github-hosted-datasets-discoverable-by-google-dataset-search-13527f2f657a)
+
+## Dataset Metadata
+The following table is necessary for this dataset to be indexed by 
+<a href="https://datasetsearch.research.google.com">Google Dataset Search</a>.
+<div itemscope itemtype="https://schema.org/Dataset">
+<table>
+  <tr>
+    <th>property</th>
+    <th>value</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><code itemprop="name">IUPAC Digitized pKa Dataset</code></td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td><code itemprop="url">https://github.com/IUPAC/Dissociation-Constants</code></td>
+  </tr>
+  <tr>
+    <td>sameAs</td>
+    <td><code itemprop="sameAs">https://doi.org/10.5281/zenodo.7236452</code></td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td><code itemprop="description">This repository includes "high-confidence" pKa data digitized from three reference works:<br/>
+ - International Union of Pure and Applied Chemistry', E. P Serjeant and Boyd Dempsey. 'Ionisation Constants of Organic Acids in Aqueous Solution'; Oxford/Pergamon, 1979 (Oxford IUPAC chemical data series)<br/>
+ - International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution*; Butterworths, 1965<br/>
+ - International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution, Supplement*;  Butterworths, 1972<br/>
+With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu).
+</code></td>
+  </tr>
+  <tr>
+    <td>provider</td>
+    <td>
+      <div itemscope itemtype="https://schema.org/Organization" itemprop="provider">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">The International Union of Pure and Applied Chemistry (IUPAC)</code></td>
+          </tr>
+          <tr>
+            <td>sameAs</td>
+            <td><code itemprop="sameAs">https://iupac.org</code></td>
+          </tr>
+        </table>
+      </div>
+      <div itemscope itemtype="https://schema.org/Organization" itemprop="provider">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">Massachusetts Institute of Technology (MIT)</code></td>
+          </tr>
+          <tr>
+            <td>sameAs</td>
+            <td><code itemprop="sameAs">https://greengroup.mit.edu/</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>citation</td>
+    <td><code itemprop="citation">https://doi.org/10.5281/zenodo.7236452</code></td>
+  </tr>
+</table>
+</div>
