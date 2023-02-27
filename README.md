@@ -212,7 +212,7 @@ With permission from the copyright holder, the International Union of Pure and A
           </tr>
           <tr>
             <td>name</td>
-            <td><code itemprop="name">Massachusetts Institute of Technology (MIT)</code></td>
+            <td><code itemprop="name">Green Group, Department of Chemical Engineering, Massachusetts Institute of Technology (MIT)</code></td>
           </tr>
           <tr>
             <td>sameAs</td>
