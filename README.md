@@ -149,7 +149,12 @@ The following table is necessary for this dataset to be indexed by
   </tr>
   <tr>
     <td>creator</td>
-    <td><code itemprop="creator">Jonathan Zheng</code></td>
+    <td>
+        <code itemtype="Person">
+            <code itemprop="creator">Jonathan Zheng</code>
+            <code itemprop="sameAs">https://orcid.org/0000-0002-4863-1325</code>
+        </code>
+    </td>
   </tr>
   <tr>
     <td>url</td>
