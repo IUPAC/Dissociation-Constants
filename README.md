@@ -137,7 +137,7 @@ People involved with sample collection, processing, analysis and/or submission:
 ## Dataset Metadata
 The following table is necessary for this dataset to be indexed by 
 <a href="https://datasetsearch.research.google.com">Google Dataset Search</a>.
-<div itemscope itemtype="https://schema.org/Dataset">
+<div itemscope itemtype="http://schema.org/Dataset">
 <table>
   <tr>
     <th>property</th>
@@ -146,6 +146,10 @@ The following table is necessary for this dataset to be indexed by
   <tr>
     <td>name</td>
     <td><code itemprop="name">IUPAC Digitized pKa Dataset</code></td>
+  </tr>
+  <tr>
+    <td>creator</td>
+    <td><code itemprop="creator">Jonathan Zheng</code></td>
   </tr>
   <tr>
     <td>url</td>
@@ -167,7 +171,7 @@ With permission from the copyright holder, the International Union of Pure and A
   <tr>
     <td>provider</td>
     <td>
-      <div itemscope itemtype="https://schema.org/Organization" itemprop="provider">
+      <div itemscope itemtype="http://schema.org/Organization" itemprop="provider">
         <table>
           <tr>
             <th>property</th>
@@ -183,7 +187,7 @@ With permission from the copyright holder, the International Union of Pure and A
           </tr>
         </table>
       </div>
-      <div itemscope itemtype="https://schema.org/Organization" itemprop="provider">
+      <div itemscope itemtype="http://schema.org/Organization" itemprop="provider">
         <table>
           <tr>
             <th>property</th>
@@ -204,6 +208,10 @@ With permission from the copyright holder, the International Union of Pure and A
   <tr>
     <td>citation</td>
     <td><code itemprop="citation">https://doi.org/10.5281/zenodo.7236452</code></td>
+  </tr>
+  <tr>
+    <td>license</td>
+    <td><code itemprop="license">https://creativecommons.org/licenses/by-nc/4.0/</code></td>
   </tr>
 </table>
 </div>
