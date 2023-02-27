@@ -150,11 +150,23 @@ The following table is necessary for this dataset to be indexed by
   <tr>
     <td>creator</td>
     <td>
-        <code itemtype="Person">
-            <code itemprop="creator">Jonathan Zheng</code>
-            <code itemprop="sameAs">https://orcid.org/0000-0002-4863-1325</code>
-        </code>
-    </td>
+      <div itemscope itemtype="http://schema.org/Person" itemprop="creator">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">Jonathan Zheng</code></td>
+          </tr>
+          <tr>
+            <td>sameAs</td>
+            <td><code itemprop="sameAs">https://orcid.org/0000-0002-4863-1325</code></td>
+          </tr>
+        </table>
+      </div>
+      </td>
   </tr>
   <tr>
     <td>url</td>
