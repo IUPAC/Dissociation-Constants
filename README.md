@@ -62,7 +62,7 @@ This GitHub repository serves as a working copy for the dataset. Please refer to
 
 Further data was collected that is not included in this dataset. "Low-confidence" data (i.e. only one source translating IUPAC name to SMILES; or different name translators gave different results) were excluded, as well as entries whose names could not be programatically translated, and dissociation types that could not be unambiguously assigned (i.e. pKaH versus pKa). Raw scans of the reference books are also excluded from this data set.
 
-This is the first release of the dataset. Please email jonzheng@mit.edu if any errors are discovered.
+Please email jonzheng@mit.edu if any errors are discovered.
 
 ## Methodological Information
 This dataset was obtained by scanning the reference books listed above, and then using OCR (Amazon Textract) to extract the images into text. After some light processsing of the intermediate data files, scripts were then written to process the text into an organized tabular format that resembles the layout of the textbook, to aid members of the Green Group at MIT manually check the digital data for fidelity to the original reference data. The digital tables were then processed again to extract the information to a convenient form for computational use, and to attempt to translate the IUPAC names to SMILES strings. This final format was then manually and programatically checked. *More information can be found in the report attached in the repository.*
