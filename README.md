@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/536654885.svg)](https://zenodo.org/badge/latestdoi/536654885)
 
-**Important note: This is the first release of this dataset. The detailed process of digitization and curation of this dataset can be found in the *IUPAC pKa Data Digitization Report* attached in this repository. Our validation process is ongoing and will continue. Please be advised that a few errors and inconsistencies may still exist.** 
+**Important note: This is an early release of this dataset. The detailed process of digitization and curation of this dataset can be found in the *IUPAC pKa Data Digitization Report* attached in this repository. Our validation process is ongoing and will continue. Please be advised that a few errors and inconsistencies may still exist.** 
 
 ### Dataset version: v2.0 
 
