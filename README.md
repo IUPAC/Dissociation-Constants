@@ -60,7 +60,7 @@ This GitHub repository serves as a working copy for the dataset. Please refer to
  * `jupyter_notebooks/data_sample/data.csv`: Result of inputting the image scan pdf into Amazon Textract; used for Jupyter notebook demos.
  * `jupyter_notebooks/names/sample_names_OUT.csv`: Sample of IUPAC name translations following typical workflow; used for Jupyter notebook demos.
 
-Further data was collected that is not included in this dataset. "Low-confidence" data (i.e. only one source translating IUPAC name to SMILES; or different name translators gave different results) were excluded, as well as entries whose names could not be programatically translated. Raw scans of the reference books are also excluded from this data set.
+Further data was collected that is not included in this dataset. "Low-confidence" data (i.e. only one source translating IUPAC name to SMILES; or different name translators gave different results) were excluded, as well as entries whose names could not be programatically translated, and dissociation types that could not be unambiguously assigned (i.e. pKaH versus pKa). Raw scans of the reference books are also excluded from this data set.
 
 This is the first release of the dataset. Please email jonzheng@mit.edu if any errors are discovered.
 
@@ -86,7 +86,8 @@ Before publication, several programmed checks were performed on the dataset.
  * Checking range and distribution of pKa values.
  * Checking for common typos in Remarks, pKa types, temperatures, and chemical names.
  * Manual review of all entries that failed to produce a SMILES (in case the translation failure was caused by a name typo).
- * Standardizing formats (e.g. formatting "pk" as "pK", "pKa" as "pK1", standardizing "V. Uncert." versus "Very Uncert.", etc.).
+ * Manual review of amphoteric molecules to check the validity of the dissociation type (example: pKaH vs. pKa vs. pKb)
+ * Standardizing formats (e.g. formatting "pk" as "pKa", "pKa" as "pKa1", standardizing "V. Uncert." versus "Very Uncert.", etc.).
 
 ## Data-specific information
 
@@ -94,7 +95,7 @@ Before publication, several programmed checks were performed on the dataset.
 * `unique_ID#`: A unique code for each distinct molecule in the dataset, composed of the reference work code plus the entry number of the chemical species in the original reference work.
 * `SMILES`: SMILES string translated from the IUPAC names provided in the original reference work.
 * `InChI`: InChI string derived from the SMILES strings
-* `pka_type`: Type of dissociation constant. Examples: pKAH1 = conjugate acid's first dissociation; pKb = basic dissociation constant; The vast majority of entries will be of the form pKAH, pKA, or pKB, but there are some exceptions in the reference works that include parentheses to identify an unusual protonation site or structure, e.g. pK(indole-ring) is pK for protonation on indole ring. (This convention may be changed in a later version). Many amphoteric molecules species are also present in this dataset, for which severa pK values are reported. Unfortunately, the original reference works do not often distinguish which values are acidic and which are basic. This distinction can only be automatically made if only two acidities are reported, in which case the lower value is assumed to be basic and the higher as acidic. For all entries with more than 2 pK values that are potentially amphoteric, we reported the pKa values with a question mark appended to their pKa type and acidity label to show that the acidity type is not yet determined. 6,602 entries include this uncertain label. Ongoing work is being undertaken to clarify the correct acidity labels. We note that this is a conservative overestimate; many of the 6,602 entries are polyprotic rather than amphoteric molecules, and hence their original labels are correct.
+* `pka_type`: Type of dissociation constant. Examples: pKaH1 = conjugate acid's first dissociation; pKb = basic dissociation constant; The vast majority of entries will be of the form pKaH, pKa, or pKB, but there are some exceptions in the reference works that include parentheses to identify an unusual protonation site or structure, e.g. pK(indole-ring) is pK for protonation on indole ring. (This convention may be changed in a later version). Many amphoteric molecules species are also present in this dataset, for which several pK values are reported. The original reference works do not often distinguish which values are acidic and which are basic. This distinction can be automatically made if only two acidities are reported, in which case the lower value is assumed to be basic and the higher as acidic. For all entries with more than 2 pK values that are potentially amphoteric, we manually examined the chemical structures to determine the labels. Out of the original data corpus, 1,275 entries had ambiguous labels we could not manually assign, so we excluded them from the high-confidence dataset. Future work may include resolving the labels for that missing set.
 * `pka_value`: the pK value
 * `T`: temperature (deg. C)
 * `remarks`: Comments for this specific datapoint.
@@ -109,19 +110,19 @@ Before publication, several programmed checks were performed on the dataset.
 * `original_IUPAC_nicknames`: Secondary names identified from the IUPAC identifier for the chemical species originally presented in the reference works
 * `source`: Name of the reference book: perrin, perrin_supp, or serjeant .
 * `pressure`: Pressure (a handful of entries include very high pressure entries which might yield unexpected results if not filtered, so this column is added to help filter these out).
-* `acidity_label`: Descriptor indicating whether the pK is an acidic (A), conjugate acid (AH), or basic (B) dissociation constant.
+* `acidity_label`: Descriptor indicating whether the pK is an acidic (A), conjugate acid (AH), basic (B), or "other" dissociation constant.
 * `original_T`: Displays the original temperature if it was corrected for purposes of standardization. (In the T column, room temperature was converted to 25 degrees Celsius, and any approximate temperatures were reported without their approximation sign.)
 * `solvent`: Solvent information, if parsable from the remarks column.
 
 ### **Rows**: 
-There are 25,498 rows corresponding to 10,957 unique molecules in the dataset.
+There are 24,222 rows corresponding to 10,624 unique molecules in the dataset.
 
 Specialized abbreviations used: 
-* `pK`: dissociation constant of any type, e.g. a pKa, pKAH, pKB, etc.
+* `pK`: dissociation constant of any type, e.g. a pKa, pKaH, pKb, etc.
 * `pKa`: acid dissociation constant
-* `pk1, pk2, pk3, ...`: first, second, third (etc) acid dissociation constants
-* `pKAH`: acid dissociation constant of a base's conjugate acid
-* `pKB`: base dissociation constant, or 14-pKAH
+* `pKa1, pKa2, pKa3, ...`: first, second, third (etc) acid dissociation constants
+* `pKaH`: acid dissociation constant of a base's conjugate acid
+* `pKb`: base dissociation constant, or 14-pKAH
 * `I`: ionic strength, equal to 1/2 * Sum(ci * zi^2)
 * `m`: concentration in mole/1000g of water
 * `c`: concentration in mole/L
