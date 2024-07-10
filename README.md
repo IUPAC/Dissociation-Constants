@@ -4,7 +4,7 @@
 
 **Important note: This is an early release of this dataset. The detailed process of digitization and curation of this dataset can be found in the *IUPAC pKa Data Digitization Report* attached in this repository. Our validation process is ongoing and will continue. Please be advised that a few errors and inconsistencies may still exist.** 
 
-### Dataset version: v2.0 
+### Dataset version: v2.1 
 
 ## Description
 
@@ -13,7 +13,7 @@ This repository includes "high-confidence" pKa data digitized from three referen
  - **Perrin**: International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution*; Butterworths, 1965
  - **Perrin Supplement**: International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution, Supplement*;  Butterworths, 1972
 
-With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu).
+With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu). Further updates were committed on: July 10th, 2024.
 
 ## Contributors:
 Jonathan Zheng
@@ -41,7 +41,7 @@ Copyright &copy; 2024 International Union of Pure and Applied Chemistry.
 This material is available for reuse under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license with the following attribution: Reproduced by permission of International Union of Pure and Applied Chemistry.
 
 ## Recommended Citation
-Zheng, Jonathan W. and Lafontant-Joseph, Olivier. (2024) IUPAC Digitized pKa Dataset, v2.0. Copyright &copy; 2024 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://doi.org/10.5281/zenodo.7236453. 
+Zheng, Jonathan W. and Lafontant-Joseph, Olivier. (2024) IUPAC Digitized pKa Dataset, v2.1. Copyright &copy; 2024 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://doi.org/10.5281/zenodo.7236453. 
 
 This GitHub repository serves as a working copy for the dataset. Please refer to the Zenodo DOI badge linked at the top of this README.
 
@@ -49,7 +49,7 @@ This GitHub repository serves as a working copy for the dataset. Please refer to
 ## Data & File Overview
 
 **File List**
- * `iupac_high-confidence_v2_0.csv` : pKa dataset.
+ * `iupac_high-confidence_v2_1.csv` : pKa dataset.
  * `IUPAC_pK_DataDigitizationReport.pdf` : Report describing methods of creating this dataset.
  * `reference_code_translation.csv`: Spreadsheet containing reference codes.
  * `method_translation.csv`: Spreadsheet containing method codes.
