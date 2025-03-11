@@ -4,7 +4,7 @@
 
 **Important note: This is an early release of this dataset. The detailed process of digitization and curation of this dataset can be found in the *IUPAC pKa Data Digitization Report* attached in this repository. Our validation process is ongoing and will continue. Please be advised that a few errors and inconsistencies may still exist.** 
 
-### Dataset version: v2.2 
+### Dataset version: v2.3
 
 ## Description
 
@@ -13,7 +13,7 @@ This repository includes "high-confidence" pKa data digitized from three referen
  - **Perrin**: International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution*; Butterworths, 1965
  - **Perrin Supplement**: International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution, Supplement*;  Butterworths, 1972
 
-With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu). Further updates were committed on: July 10th, 2024.
+With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu). Further updates were committed on: July 10th, 2024, and March 11th, 2025.
 
 ## Contributors:
 Jonathan Zheng
@@ -49,7 +49,7 @@ This GitHub repository serves as a working copy for the dataset. Please refer to
 ## Data & File Overview
 
 **File List**
- * `iupac_high-confidence_v2_2.csv` : pKa dataset.
+ * `iupac_high-confidence_v2_3.csv` : pKa dataset.
  * `IUPAC_pK_DataDigitizationReport.pdf` : Report describing methods of creating this dataset.
  * `reference_code_translation.csv`: Spreadsheet containing reference codes.
  * `method_translation.csv`: Spreadsheet containing method codes.
@@ -112,10 +112,10 @@ Before publication, several programmed checks were performed on the dataset.
 * `pressure`: Pressure (a handful of entries include very high pressure entries which might yield unexpected results if not filtered, so this column is added to help filter these out).
 * `acidity_label`: Descriptor indicating whether the pK is an acidic (A), conjugate acid (AH), basic (B), or "other" dissociation constant.
 * `original_T`: Displays the original temperature if it was corrected for purposes of standardization. (In the T column, room temperature was converted to 25 degrees Celsius, and any approximate temperatures were reported without their approximation sign.)
-* `solvent`: Solvent information, if parsable from the remarks column.
+* `cosolvent`: Solvent information, if parsable from the remarks column.
 
 ### **Rows**: 
-There are 24,222 rows corresponding to 10,624 unique molecules in the dataset.
+There are 24,213 rows corresponding to 10,626 unique molecules in the dataset (unique on the basis of InChI strings).
 
 Specialized abbreviations used: 
 * `pK`: dissociation constant of any type, e.g. a pKa, pKaH, pKb, etc.
@@ -193,7 +193,7 @@ The following table is necessary for this dataset to be indexed by
  - International Union of Pure and Applied Chemistry', E. P Serjeant and Boyd Dempsey. 'Ionisation Constants of Organic Acids in Aqueous Solution'; Oxford/Pergamon, 1979 (Oxford IUPAC chemical data series)<br/>
  - International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution*; Butterworths, 1965<br/>
  - International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution, Supplement*;  Butterworths, 1972<br/>
-With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu).
+With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu). Further updates were committed on: July 10th, 2024, and March 11th, 2025.
 </code></td>
   </tr>
   <tr>
