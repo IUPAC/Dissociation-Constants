@@ -36,7 +36,7 @@ Massachusetts Institute of Technology
 olivj23@mit.edu
 
 ## License
-Copyright &copy; 2024 International Union of Pure and Applied Chemistry.
+Copyright &copy; 2025 International Union of Pure and Applied Chemistry.
 
 This material is available for reuse under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license with the following attribution: Reproduced by permission of International Union of Pure and Applied Chemistry.
 
@@ -101,7 +101,7 @@ Before publication, several programmed checks were performed on the dataset.
 * `remarks`: Comments for this specific datapoint.
 * `method`: Code for the method used to determine this datapoint.
 * `assessment`: IUPAC critical evaluation of the data uncertainty.
-* `ref`: Code for the reference to the original source of this datapoint. Note: While we work on validating the digitized reference codes, scanned images of the reference codes are available in the `refs` folder. 
+* `ref`: Code for the reference to the original source of this datapoint. 
 * `ref_remarks`: Remarks pertaining specifically to the reference for this entry; e.g. "Thermodynamic quantities are derived from the results".
 * `entry_remarks`: Remarks pertaining to all entries for this chemical species, usually pointers to other data sources (e.g. Other values in B10).
 * `original_IUPAC_names`: IUPAC identifier for the chemical species originally presented in the reference work (with a few exceptions, see the report for details).
@@ -115,7 +115,7 @@ Before publication, several programmed checks were performed on the dataset.
 * `cosolvent`: Solvent information, if parsable from the remarks column.
 
 ### **Rows**: 
-There are 24,213 rows corresponding to 10,626 unique molecules in the dataset (unique on the basis of InChI strings).
+There are 24,211 rows corresponding to 10,626 unique molecules in the dataset (unique on the basis of InChI strings).
 
 Specialized abbreviations used: 
 * `pK`: dissociation constant of any type, e.g. a pKa, pKaH, pKb, etc.
