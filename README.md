@@ -13,7 +13,7 @@ This repository includes "high-confidence" pKa data digitized from three referen
  - **Perrin**: International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution*; Butterworths, 1965
  - **Perrin Supplement**: International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution, Supplement*;  Butterworths, 1972
 
-With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu). Further updates were committed on: July 10th, 2024, and March 11th, 2025.
+With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu). Further updates were committed on: July 10th, 2024, and March 21st, 2025.
 
 ## Contributors:
 Jonathan Zheng
@@ -41,7 +41,7 @@ Copyright &copy; 2025 International Union of Pure and Applied Chemistry.
 This material is available for reuse under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license with the following attribution: Reproduced by permission of International Union of Pure and Applied Chemistry.
 
 ## Recommended Citation
-Zheng, Jonathan W. and Lafontant-Joseph, Olivier. (2024) IUPAC Digitized pKa Dataset, v2.2. Copyright &copy; 2024 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://doi.org/10.5281/zenodo.7236453. 
+Zheng, Jonathan W. and Lafontant-Joseph, Olivier. (2025) IUPAC Digitized pKa Dataset, v2.3. Copyright &copy; 2025 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://doi.org/10.5281/zenodo.7236453. 
 
 This GitHub repository serves as a working copy for the dataset. Please refer to the Zenodo DOI badge linked at the top of this README.
 
@@ -62,7 +62,7 @@ This GitHub repository serves as a working copy for the dataset. Please refer to
 
 Further data was collected that is not included in this dataset. "Low-confidence" data (i.e. only one source translating IUPAC name to SMILES; or different name translators gave different results) were excluded, as well as entries whose names could not be programatically translated, and dissociation types that could not be unambiguously assigned (i.e. pKaH versus pKa). Raw scans of the reference books are also excluded from this data set.
 
-Please email jonzheng@mit.edu if any errors are discovered.
+Please email jonzheng@mit.edu or post an issue on the GitHub page if any errors are discovered.
 
 ## Methodological Information
 This dataset was obtained by scanning the reference books listed above, and then using OCR (Amazon Textract) to extract the images into text. After some light processsing of the intermediate data files, scripts were then written to process the text into an organized tabular format that resembles the layout of the textbook, to aid members of the Green Group at MIT manually check the digital data for fidelity to the original reference data. The digital tables were then processed again to extract the information to a convenient form for computational use, and to attempt to translate the IUPAC names to SMILES strings. This final format was then manually and programatically checked. *More information can be found in the report attached in the repository.*
@@ -193,7 +193,7 @@ The following table is necessary for this dataset to be indexed by
  - International Union of Pure and Applied Chemistry', E. P Serjeant and Boyd Dempsey. 'Ionisation Constants of Organic Acids in Aqueous Solution'; Oxford/Pergamon, 1979 (Oxford IUPAC chemical data series)<br/>
  - International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution*; Butterworths, 1965<br/>
  - International Union of Pure and Applied Chemistry, DD Perrin. *Dissociation Constants of Organic Bases in Aqueous Solution, Supplement*;  Butterworths, 1972<br/>
-With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu). Further updates were committed on: July 10th, 2024, and March 11th, 2025.
+With permission from the copyright holder, the International Union of Pure and Applied Chemistry (IUPAC), the reference books were scanned, converted to digital data, checked for accuracy, and curated for accessibility, interoperability, and reusability between the dates of Friday, Sept. 10, 2021 and Thursday, Sept. 15, 2022 by Jonathan Zheng (jonzheng@mit.edu). Further processing and curation was performed between Jan. 8, 2024 to Feb. 22, 2024 by Jonathan Zheng and Olivier Lafontant-Joseph (olivj23@mit.edu). Further updates were committed on: July 10th, 2024, and March 21st, 2025.
 </code></td>
   </tr>
   <tr>
