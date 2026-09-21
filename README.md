@@ -51,7 +51,7 @@ This GitHub repository serves as a working copy for the dataset. Please refer to
 ## Data & File Overview
 
 **File List**
- * `iupac_high-confidence_v2_3.csv` : pKa dataset.
+ * `iupac_high-confidence_v2_4.csv` : pKa dataset.
  * `IUPAC_pK_DataDigitizationReport.pdf` : Report describing methods of creating this dataset.
  * `reference_code_translation.csv`: Spreadsheet containing reference codes.
  * `method_translation.csv`: Spreadsheet containing method codes.
