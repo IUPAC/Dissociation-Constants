@@ -4,7 +4,7 @@
 
 **Important note: This is an early release of this dataset. The detailed process of digitization and curation of this dataset can be found in the *IUPAC pKa Data Digitization Report* attached in this repository. Our validation process is ongoing and will continue. Please be advised that a few errors and inconsistencies may still exist.** 
 
-### Dataset version: v2.3e
+### Dataset version: v2.4a
 
 ## Description
 
@@ -39,7 +39,7 @@ This material is available for reuse under a [CC BY-NC 4.0](https://creativecomm
 
 ## Recommended Citation
 Citations should refer to the Zenodo repository:
-> Zheng, Jonathan W. and Lafontant-Joseph, Olivier. (2026) IUPAC Digitized pKa Dataset, v2.3e. Copyright &copy; 2026 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://doi.org/10.5281/zenodo.7236452. 
+> Zheng, Jonathan W. and Lafontant-Joseph, Olivier. (2026) IUPAC Digitized pKa Dataset, v2.4a. Copyright &copy; 2026 International Union of Pure and Applied Chemistry (IUPAC), The dataset is reproduced by permission of IUPAC and is licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Access at https://doi.org/10.5281/zenodo.7236452. 
 
 The manuscript in *RSC Advances* may also be cited:
 
